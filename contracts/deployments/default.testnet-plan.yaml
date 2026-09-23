@@ -1,0 +1,17 @@
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: https://api.testnet.hiro.so
+bitcoin-node: http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332
+plan:
+  batches:
+  - id: 0
+    transactions:
+    - transaction-type: contract-publish
+      contract-name: counter
+      expected-sender: ST28712E2VZ7AD1PMAMKZGZQW016A2PK486FJYJMQ
+      cost: 1558341
+      path: contracts/counter.clar
+      anchor-block-only: true
+      clarity-version: 6
+    epoch: '4.0'
