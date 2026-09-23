@@ -4,7 +4,6 @@ import { useState } from "react";
 import { useAtomValue } from "jotai";
 import { stringAsciiCV } from "@stacks/transactions";
 import { addressAtom } from "@/store/wallet";
-import { WalletConnect } from "@/components/WalletConnect";
 import { useCounter_SubmitProof } from "@/generated/hooks";
 
 export default function Home() {
@@ -44,7 +43,6 @@ export default function Home() {
               Prove what you built on Stacks.
             </p>
           </div>
-          <WalletConnect />
         </div>
       </header>
 
