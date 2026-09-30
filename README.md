@@ -89,9 +89,7 @@ The contract was deployed successfully to Stacks Testnet.
 
 A production submission was also tested end-to-end using a real testnet wallet.
 
-Successful transaction:
-
-https://explorer.hiro.so/txid/0xd6d8857e842db3de53a5146ee3a45a188ef988aa3f30b6bc1ac0fc044f1bf820?chain=testnet
+Successful transaction: https://explorer.hiro.so/txid/0xd6d8857e842db3de53a5146ee3a45a188ef988aa3f30b6bc1ac0fc044f1bf820?chain=testnet
 
 Status: **Success**
 
