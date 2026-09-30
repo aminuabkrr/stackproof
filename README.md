@@ -126,13 +126,36 @@ The goal is not to store the entire project onchain. Instead, StackProof stores 
 
 ## Scaffold Stacks Feedback
 
-Scaffold Stacks provided a useful starting point for understanding how the frontend, wallet connection, generated contract hooks, and Clarity contract fit together.
+**What Worked Well**
 
-The generated hooks made contract interaction easier once their structure was understood.
+Scaffold Stacks provided a useful starting point for building StackProof. The generated project structure helped me understand how the frontend, wallet connection, Clarity contract, and contract interaction fit together.
 
-The main friction during development was discovering the exact generated hook names and argument structure. Clearer documentation or examples around generated hooks could make the onboarding experience easier for new builders.
+The generated contract hooks made it easier to call smart contract functions from the frontend once I understood how they worked.
 
-Overall, Scaffold Stacks helped move the project from a contract idea to a deployed and working full-stack Stacks dApp.
+I successfully deployed my Clarity contract to Stacks Testnet, connected my wallet, and submitted a real transaction through the production frontend. This helped me move from a contract idea to a working full-stack dApp.
+
+**What Didn't Work Well**
+
+The main challenge was understanding the generated contract hooks, particularly their exact names and argument structures.
+
+For example, the generated submission hook for my project was "useCounter_SubmitProof()". Discovering how to use the hook and pass the correct arguments required additional investigation.
+
+It was not immediately obvious where to find clear examples explaining generated hooks and how to connect them to frontend form submissions.
+
+**What Could Be Improved**
+
+Scaffold Stacks could improve the onboarding experience by providing:
+
+- Clear documentation explaining generated hook naming conventions.
+- Practical examples showing how to pass arguments to contract functions.
+- A complete example connecting a frontend form, wallet confirmation, transaction status, and contract response.
+- Troubleshooting guidance for common frontend and smart contract integration issues.
+
+**Overall Experience**
+
+Overall, Scaffold Stacks helped me move from a smart contract idea to a deployed, working dApp. The generated structure and hooks were useful, but clearer documentation and practical integration examples would make the development experience smoother for new builders.
+
+This feedback reflects my actual experience building and testing StackProof.
 
 ## Bounty
 
